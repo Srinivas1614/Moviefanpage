@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Buff Central</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Movie Buff Central</h1>
+        <p>Welcome to the ultimate fan page for your favorite movie franchises!</p>
+    </header>
+
+    <section id="posters">
+        <h2>Featured Movies</h2>
+        <div class="poster-container">
+            <img src="poster1.jpg" alt="Movie 1">
+            <img src="poster2.jpg" alt="Movie 2">
+            <img src="poster3.jpg" alt="Movie 3">
+        </div>
+    </section>
+
+    <section id="quote">
+        <h2>Quote of the Day</h2>
+        <p id="random-quote"></p>
+    </section>
+
+    <section id="trailer">
+        <h2>Movie Trailers</h2>
+        <div class="trailer-container">
+            <iframe width="560" height="315" src="https://youtu.be/Q1NKMPhP8PY?si=ar6LAB_5ud3JAFfU" title="Pushpa:The Rise" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoid2" title="Trailer 2" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="quiz">
+        <h2>Trivia Quiz</h2>
+        <div id="quiz-container"></div>
+        <button onclick="startQuiz()">Start Quiz</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
